@@ -4,7 +4,11 @@ import { SHARED_IMPORTS } from '../../shared/shared.import';
 
 @Component({
   selector: 'app-login-screen',
+<<<<<<< HEAD
   imports: [SHARED_IMPORTS, NgxMask],
+=======
+  imports: [SHARED_IMPORTS],
+>>>>>>> production
   templateUrl: './login-screen.html',
   styleUrl: './login-screen.scss'
 })
