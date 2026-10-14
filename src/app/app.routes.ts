@@ -1,3 +1,6 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { LoginScreen } from './screens/login-screen/login-screen';
+export const routes: Routes = [
+ { path: '', redirectTo: 'login', pathMatch: 'full' },
+ { path: 'login', component: LoginScreen }
+];
